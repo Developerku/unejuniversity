@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Universitas Jember Pasuruan</title>
+  <meta name="description" content="Temukan informasi lengkap tentang Universitas Jember, kampus unggulan dengan pilihan jurusan terbaik.">
+  <meta name="keywords" content="Universitas Jember	">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <!-- Main JS File -->
+  <script src="assets/js/main.js" defer></script>
+
+  <!-- =======================================================
+  * Template Name: Selecao
+  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <style>
+    /* Menambahkan Kotak pada Features Section */
+.feature-box {
+  border: 2px solid #333; /* Menambahkan border di sekitar kotak */
+  padding: 20px; /* Memberikan ruang di dalam kotak */
+  margin-bottom: 20px; /* Memberikan ruang di bawah kotak */
+  border-radius: 10px; /* Menambahkan sudut yang melengkung pada kotak */
+  background-image: url('assets/img/bg2.webp'); /* Ganti dengan path gambar Anda */
+        background-size: cover; /* Mengatur gambar agar mengisi seluruh kotak */
+        background-position: center; /* Mengatur posisi gambar di tengah kotak */
+        color: white; /* Mengatur warna teks menjadi putih agar terlihat jelas di atas gambar */
+      }
+
+.feature-box h3 {
+  color: #333; /* Warna teks judul */
+  font-weight: bold;
+  margin-top: 120px; /* Menambahkan jarak ke bawah */
+
+}
+
+.feature-box p {
+  color: #ffffff; /* Warna teks deskripsi */
+}
+ .feature-box p {
+  margin-top: 60px; /* Menambahkan jarak ke bawah */
+}
+.feature-box .col-lg-6 img {
+    position: relative;
+    z-index: 1;
+  }
+
+  .feature-box .col-lg-6 {
+    position: relative;
+  }
+
+  .feature-box .col-lg-6::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Warna hitam dengan transparansi */
+    z-index: 0;
+  }
+
+  .feature-box .col-lg-6 h3,
+  .feature-box .col-lg-6 p {
+    position: relative;
+    z-index: 2;
+    color: #fff; /* Menjadikan teks putih agar kontras dengan background hitam */
+  }
+
+  </style>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class=" align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <img src="assets/img/Logo_unej-removebg-preview.png" height="70">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              
+              <li><a href="Gallery.html">Gallery</a></li>
+              <li><a href="team.html">Team</a></li>
+              <li><a href="Jurusan.html">Jurusan</a></li>
+              <li><a href="pendaftaran.html">Pendaftaran</a></li>
+            </ul>
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div id="hero-carousel" data-bs-interval="5000" class="container carousel carousel-fade" data-bs-ride="carousel">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown">Universitas Jember Pasuruan</h2>
+            <p class="animate__animated animate__fadeInUp">Membangun Generasi Cerdas, Berkualitas, dan Berintegritas            </p>
+          </div>
+        </div>
+
+        
+
+      </div>
+
+      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <defs>
+          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+        </defs>
+        <g class="wave1">
+          <use xlink:href="#wave-path" x="50" y="3"></use>
+        </g>
+        <g class="wave2">
+          <use xlink:href="#wave-path" x="50" y="0"></use>
+        </g>
+        <g class="wave3">
+          <use xlink:href="#wave-path" x="50" y="9"></use>
+        </g>
+      </svg>
+
+    </section><!-- /Hero Section -->
+
+    
+    <!-- Features Section -->
+<section id="features" class="features section">
+  <div class="container">
+    <ul class="nav nav-tabs row  d-flex" data-aos="fade-up" data-aos-delay="100">
+      <li class="nav-item col-3">
+      </li>
+    </ul><!-- End Tab Nav -->
+
+    <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+      <div class="tab-pane fade active show" id="features-tab-1">
+        <div class="row feature-box">
+          <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+            <h3>Wisuda Periode VI Tahun Akademik 2024/2025</h3>
+            <p class="fst-italic">
+            </p>
+            <p>
+              “Universitas Jember (UNEJ) menduduki peringkat ke 13 dari seluruh Perguruan Tinggi Negeri dan Swasta (PTN/PTS) di Indonesia, versi Times Higher Education World University Rankings (THE WUR) 2025. Prestasi ini menunjukkan proses Tri Dharma Pendidikan Tinggi di UNEJ sudah berjalan dengan baik dan diakui oleh dunia”
+            </p>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img src="assets/img/rektorunej-Photoroom.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div><!-- End Tab Content Item -->
+    </div>
+  </div>
+</section><!-- /Features Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3 class="mt-4">Wisuda Periode VI Tahun Akademik 2024/2025</h3>
+            <p class="mt-4">“Universitas Jember (UNEJ) menduduki peringkat ke 13 dari seluruh Perguruan Tinggi Negeri dan Swasta (PTN/PTS) di Indonesia, versi Times Higher Education World University Rangkings (THE WUR) 2025. Prestasi ini menunjukkan proses Tri Dharma Pendidikan Tinggi di UNEJ sudah berjalan dengan baik dan diakui oleh dunia”</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center ">
+            <a class="cta-btn align-middle" href="pendaftaran.html">Daftar Sekarang<i class="bi bi-arrow-right-short"  style="font-size: 28px; margin-top: 9;"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+    <section id="features" class="features section">
+
+      <div class="container">
+
+        <ul class="nav nav-tabs row  d-flex" data-aos="fade-up" data-aos-delay="100">
+          <li class="nav-item col-3">
+         
+          </li>
+        </ul><!-- End Tab Nav -->
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="tab-pane fade active show" id="features-tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Visi & Misi kami</h3>
+                <p class="fst-italic">
+                  Menjadi Universitas unggul dalam pengembangan sains, teknologi dan seni berwawasan lingkungan, bisnis, dan pertanian industrial.
+                </p>
+                <ul>
+                  <li><i class="bi bi-check2-all"></i>
+                    <spab>Pendidikan Berkualitas Tinggi                      .</spab>
+                  </li>
+                  <li><i class="bi bi-check2-all"></i> <span>Penelitian dan Pengembangan</span>.</li>
+                  <li><i class="bi bi-check2-all"></i> <span>Pengabdian kepada Masyarakat.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Kolaborasi dan Kemitraan.</span></li>
+                  <li><i class="bi bi-check2-all"></i> <span>Pengelolaan Kampus Berkelanjutan.</span></li>
+                </ul>
+                <p>
+                  UNEJ tidak hanya berfokus pada prestasi akademik, tetapi juga mendukung pengembangan soft skills mahasiswa melalui berbagai kegiatan kemahasiswaan. Dengan jaringan alumni yang kuat dan dukungan karir dari universitas, lulusan UNEJ memiliki peluang besar untuk sukses di dunia kerja dan meraih karir impian mereka.
+                </p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/Logo_unej.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div><!-- End Tab Content Item -->
+
+        </div>
+
+    </section>
+      <main class="main">
+      <!-- Page Title -->
+      
+      <!-- End Page Title -->
+
+      <!-- Blog Posts Section -->
+      <section id="blog-posts" class="blog-posts section">
+        <div class="container mt-4">
+          <div class="row gy-4">
+            <div class="col-lg-4">
+              <article>
+                <div class="post-img">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzaPgNxefJ3poGCwW2JnLHwh3ffOLFBxIEoB27BUo38CEZy-SaJR7gsqRO2JXoJG8v8uQ_CbIphVENafIOqlLBpFxN_ZAxWoMpfDxY2UaIcteaX-pH5cB_6K_kATqSr-pgVNwFItBOe6flIAziAWH5UCfBQVKrEaoI9LnnH3M2VbzXrk2tQ8Fz6QMF7qM/s1024/pendidikan.jpg" alt="" class="img-fluid" />
+                </div>
+
+                <p class="post-category">News</p>
+
+                <h2 class="title">
+                  <a href="artikelpendukung1.html">Pentingnya Pendidikan dalam Membangun Masa Depan yang Lebih Baik</a>
+                </h2>
+
+                <div class="d-flex align-items-center">
+                  <img src="assets/img/blog/avatar.png" alt="" class="img-fluid post-author-img flex-shrink-0" />
+                  <div class="post-meta">
+                    <p class="post-author">Farach</p>
+                    <p class="post-date">
+                      <time datetime="2024-11-18">Nov 18, 2024</time>
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!-- End post list item -->
+
+            <div class="col-lg-4">
+              <article>
+                <div class="post-img">
+                  <img src="https://storage.googleapis.com/a1aa/image/Ns3oyhFTJX5IAB8uiQX1EnP9WIX7hAYj7BcBYVp7haHaeA5JA.jpg" alt="" class="img-fluid" />
+                </div>
+
+                <p class="post-category">News</p>
+
+                <h2 class="title">
+                  <a href="artikelpendukung2html.html">Transformasi Pendidikan di Era Digital: Tantangan dan Peluang
+                  </a>
+                </h2>
+
+                <div class="d-flex align-items-center">
+                  <img src="assets/img/blog/avatar.png" alt="" class="img-fluid post-author-img flex-shrink-0" />
+                  <div class="post-meta">
+                    <p class="post-author">Farach</p>
+                    <p class="post-date">
+                      <time datetime="2024-18-10">Nov 18, 2024</time>
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!-- End post list item -->
+               <!--Awal post-->
+            <div class="col-lg-4">
+              <article>
+                <div class="post-img">
+                  <img src="https://storage.googleapis.com/a1aa/image/qX1u5WsAWh7RKt7sEOwcOOIVe65BeguLB9aBggyeMTfzRPIPB.jpg" alt="" class="img-fluid" />
+                </div>
+
+                <p class="post-category">News</p>
+
+                <h2 class="title">
+                  <a href="artikelpilar3.html">5 Cara Efektif Menggunakan Teknologi dalam Pembelajaran di Sekolah
+                  </a>
+                </h2>
+
+                <div class="d-flex align-items-center">
+                  <img src="assets/img/blog/avatar.png" alt="" class="img-fluid post-author-img flex-shrink-0" />
+                  <div class="post-meta">
+                    <p class="post-author">Farach</p>
+                    <p class="post-date">
+                      <time datetime="2024-18-10">Nov 18, 2024</time>
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-lg-4">
+              <article>
+                <div class="post-img">
+                  <img src="https://storage.googleapis.com/a1aa/image/nbD65ke1SaWdFKGpxXBeSfPk05Itn4gGj9gnfsmmzjYKLPIPB.jpg" alt="" class="img-fluid" />
+                </div>
+
+                <p class="post-category">News</p>
+
+                <h2 class="title">
+                  <a href="artikelpilar3.html">10 Tips Mengoptimalkan Pembelajaran di Era Digital untuk Siswa
+                  </a>
+                </h2>
+
+                <div class="d-flex align-items-center">
+                  <img src="assets/img/blog/avatar.png" alt="" class="img-fluid post-author-img flex-shrink-0" />
+                  <div class="post-meta">
+                    <p class="post-author">Farach</p>
+                    <p class="post-date">
+                      <time datetime="2024-18-10">Nov 18, 2024</time>
+                    </p>
+                  </div>
+                </div>
+                
+              </article>
+            </div>
+
+              <!--Awal post-->
+              <div class="col-lg-4">
+                <article>
+                  <div class="post-img">
+                    <img src="https://storage.googleapis.com/a1aa/image/HxhaoWshly55N5fGptZTHIZxlL9HoXQ0fW0oRN3Y0aL1HEyTA.jpg" alt="" class="img-fluid" />
+                  </div>
+  
+                  <p class="post-category">News</p>
+  
+                  <h2 class="title">
+                    <a href="artikelpendukung1.2.html">Pendidikan sebagai Kunci untuk Mewujudkan Masa Depan yang Lebih Baik5 Cara Efektif Menggunakan Teknologi dalam Pembelajaran di Sekolah
+                    </a>
+                  </h2>
+  
+                  <div class="d-flex align-items-center">
+                    <img src="assets/img/blog/avatar.png" alt="" class="img-fluid post-author-img flex-shrink-0" />
+                    <div class="post-meta">
+                      <p class="post-author">Farach</p>
+                      <p class="post-date">
+                        <time datetime="2024-18-10">Nov 18, 2024</time>
+                      </p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+          
+         </div>
+          <!-- End recent posts list -->
+        </div>
+      </section>
+      <!-- /Recent Posts Section -->
+
+      <!-- Blog Pagination Section -->
+      <section id="blog-pagination" class="blog-pagination section">
+        <div class="container">
+          <div class="d-flex justify-content-center">
+            <ul>
+              <li>
+                <a href="#"><i class="bi bi-chevron-left"></i></a>
+              </li>
+              <li><a href="#"class="active">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li>...</li>
+              <li><a href="#">10</a></li>
+              <li>
+                <a href="#"><i class="bi bi-chevron-right"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- /Blog Pagination Section -->
+    </main>
+
+    
+    <!-- /Features Section -->
+    <!-- Services Section -->
+
+
+    <!--
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item 
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section 
+
+    <!-- Pricing Section 
+    <section id="pricing" class="pricing section">
+
+      <!-- Section Title 
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pricing</h2>
+        <p>What they are saying about us</p>
+      </div><!-- End Section Title 
+
+      <div class="container">
+
+        <div class="row gy-3">
+
+          <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Free</h3>
+              <h4><sup>$</sup>0<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li class="na">Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div><!-- End Pricing Item 
+
+          <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="pricing-item featured">
+              <h3>Business</h3>
+              <h4><sup>$</sup>19<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li class="na">Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div><!-- End Pricing Item 
+
+          <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="pricing-item">
+              <h3>Developer</h3>
+              <h4><sup>$</sup>29<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div><!-- End Pricing Item 
+
+          <div class="col-xl-3 col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="pricing-item">
+              <span class="advanced">Advanced</span>
+              <h3>Ultimate</h3>
+              <h4><sup>$</sup>49<span> / month</span></h4>
+              <ul>
+                <li>Aida dere</li>
+                <li>Nec feugiat nisl</li>
+                <li>Nulla at volutpat dola</li>
+                <li>Pharetra massa</li>
+                <li>Massa ultricies mi</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div><!-- End Pricing Item -->
+        </div>
+
+      </div>
+
+    </section><!-- /Pricing Section -->
+
+    <!-- Faq Section 
+    <section id="faq" class="faq section">
+      <!-- Section Title 
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+        <p>Frequently Asked Questions</p>
+      </div><!-- End Section Title 
+
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-12">
+            <div class="custom-accordion" id="accordion-faq">
+              <div class="accordion-item">
+                <h2 class="mb-0">
+                  <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-1">
+                    How to download and register?
+                  </button>
+                </h2>
+
+                <div id="collapse-faq-1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion-faq">
+                  <div class="accordion-body">
+                    Far far away, behind the word mountains, far from the countries
+                    Vokalia and Consonantia, there live the blind texts. Separated
+                    they live in Bookmarksgrove right at the coast of the Semantics,
+                    a large language ocean.
+                  </div>
+                </div>
+              </div>
+              <!-- .accordion-item 
+
+              <div class="accordion-item">
+                <h2 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-2" "="">
+                How to create your paypal account?
+              </button>
+            </h2>
+            <div id=" collapse-faq-2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion-faq">
+                    <div class="accordion-body">
+                      A small river named Duden flows by their place and supplies it
+                      with the necessary regelialia. It is a paradisematic country, in
+                      which roasted parts of sentences fly into your mouth.
+                    </div>
+              </div>
+            </div>
+            <!-- .accordion-item 
+
+            <div class="accordion-item">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-faq-3">
+                  How to link your paypal and bank account?
+                </button>
+              </h2>
+
+              <div id="collapse-faq-3" class="collapse" aria-labelledby="headingThree" data-parent="#accordion-faq">
+                <div class="accordion-body">
+                  When she reached the first hills of the Italic Mountains, she
+                  had a last view back on the skyline of her hometown
+                  Bookmarksgrove, the headline of Alphabet Village and the subline
+                  of her own road, the Line Lane. Pityful a rethoric question ran
+                  over her cheek, then she continued her way.
+                </div>
+              </div>
+            </div>
+            <!-- .accordion-item 
+
+          </div>
+        </div>
+      </div>
+      </div>
+    </section><!-- /Faq Section -->
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container position-relative">
+        <h1>Fakultas Kedokteran</h1>
+        <p>Berikut adalah detail jurusan Fakultas Kedokteran.</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Detail Jurusan</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-box">
+              <h4>Jurusan Lainnya</h4>
+              <div class="services-list">
+                <a href="Fakultas-Keguruan-dan-Ilmu-Pendidikan-(FKIP).html" ><i class="bi bi-arrow-right-circle"></i><span>Fakultas Keguruan dan Ilmu Pendidikan (FKIP)</span></a>
+                <a href="detailjurusanpertanian.html"><i class="bi bi-arrow-right-circle"></i><span>Fakultas Pertanian</span></a>
+                <a href="fakultaskedokteran.html "class="active""><i class="bi bi-arrow-right-circle"></i><span>Fakultas Kedokteran</span></a>
+                <a href="Fakultas-Teknik.html"><i class="bi bi-arrow-right-circle"></i><span>Fakultas Teknik</span></a>
+                <a href="Fakultas-Ekonomi-dan-Bisnis.html"><i class="bi bi-arrow-right-circle"></i><span>Fakultas Ekonomi dan Bisnis</span></a>
+                <a href="Fakultas-Ilmu-Sosial-dan-Ilmu-Politik"><i class="bi bi-arrow-right-circle"></i><span>Fakultas Ilmu Sosial dan Ilmu Politik</span></a>
+                <a href="Fakultas-Ilmu-Komputer"><i class="bi bi-arrow-right-circle"></i><span>Fakultas Ilmu Komputer</span></a>
+              </div>
+            </div>
+            <!-- End Services List -->
+
+
+            <div class="help-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-headset help-icon"></i>
+              <h4>Mempunya Pertanyaan?</h4>
+              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i><a href="https://wa.me/62812343434343" target="_blank">+62 812-3434-4343 (WhatsApp)</a></p>
+              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a href="contact@unej.ac.id">contact@unej.ac.id</a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <img src="assets/img/masonry-portfolio/fkedokteran.jpg" alt="" class="img-fluid services-img" />
+            <h3>Fakultas Kedokteran</h3>
+            <p>
+              Fakultas Kedokteran Universitas Jember (UNEJ) adalah salah satu fakultas unggulan di bidang kesehatan. Fakultas ini menawarkan program Sarjana Kedokteran, Pendidikan Profesi Dokter, dan program magister. Fasilitas pendukungnya mencakup laboratorium lengkap, perpustakaan, dan rumah sakit pendidikan untuk praktik klinis. Kurikulum yang digunakan berbasis kompetensi untuk menghasilkan lulusan yang profesional. Fakultas ini juga aktif dalam penelitian dan pengabdian masyarakat, serta memiliki berbagai organisasi mahasiswa. Penerimaan mahasiswa baru dilakukan melalui jalur nasional dan seleksi mandiri.
+              </p>
+          <h3>Program Studi</h3>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Program Studi Sarjana Kedokteran (S1): Program ini fokus pada pembelajaran teori dan keterampilan dasar kedokteran. Lulusan program ini akan mendapatkan gelar Sarjana Kedokteran (S.Ked)                    .</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Program Pendidikan Profesi Dokter (Profesi Dokter): Setelah menyelesaikan program sarjana, mahasiswa dapat melanjutkan ke program profesi untuk menjadi dokter umum. Program ini mencakup pendidikan klinis yang dilakukan di berbagai rumah sakit mitra UNEJ.                </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Program Magister: Fakultas Kedokteran juga menawarkan program magister untuk mahasiswa yang ingin melanjutkan pendidikan pascasarjana di bidang kesehatan.                </span></li>
+            </ul>
+            <h3>Fasilitas Pendukung</h3>
+            <ul>
+              <li><i class="bi bi-check-circle"></i> <span>Laboratorium: Terdapat laboratorium anatomi, biokimia, mikrobiologi, farmakologi, dan laboratorium keterampilan klinis yang lengkap.</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Perpustakaan: Memiliki koleksi buku, jurnal ilmiah, dan literatur lainnya di bidang kesehatan.             </span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Rumah Sakit Pendidikan: Fakultas Kedokteran UNEJ memiliki kerjasama dengan berbagai rumah sakit di Jember dan sekitarnya sebagai tempat praktik klinis bagi mahasiswa.                </span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Service Details Section -->
+
+    
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Contact Us</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Address</h3>
+                <p>Universitas Jember (UNEJ)<br>
+                  Jalan Kalimantan No. 37,<br>
+                  Jember, Jawa Timur, Indonesia<br>
+                  Kode Pos: 68121</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Call Us</h3>
+                <p><a href="https://wa.me/62812343434343" target="_blank">+62 812-3434-4343 (WhatsApp)</a></p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Email Us</h3>
+                <p><a href="mailto:contact@unej.ac.id">contact@unej.ac.id</a></p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <h3 class="sitename">UNEJ</h3>
+      <p>Membangun Generasi Cerdas, Berkualitas, dan Berintegritas</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://twitter.com/unej_official"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://www.facebook.com/UNIVERSITASJEMBER"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/unej_official/"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.youtube.com/user/unejtv"><i class="bi bi-youtube"></i></a>
+        <a href="https://www.linkedin.com/school/universitasjember"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="container">
+        <div class="copyright"><span>Copyright</span> <strong class="px-1 sitename">unej_official</strong> <span>All Rights Reserved</span></div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

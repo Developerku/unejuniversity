@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Universitas Jember</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: Selecao
+  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+    
+  <style>
+    /* Mengatur background dan border kotak pada form */
+    .form-container {
+        background-color: #fff; /* Background putih */
+  border: 2px solid #ddd; /* Border abu-abu */
+  border-radius: 8px; /* Sudut melengkung */
+  padding: 20px; /* Memberi ruang dalam form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan lembut */
+  margin-top: 50px; /* Jarak atas agar tidak terlalu rapat dengan header */
+  width: 100%; /* Lebar 100% dari parent element */
+  max-width: 1200px; /* Maksimal lebar kotak */
+  margin-left: auto; /* Menyejajarkan ke kiri */
+  margin-right: auto; /* Menyejajarkan ke kanan */
+    }
+
+    /* Pemisahan form dengan footer */
+    footer {
+      margin-top: 30px; /* Jarak footer dari konten */
+      padding: 20px;
+      background-color: #f8f9fa; /* Warna latar footer */
+    }
+
+    /* Untuk memastikan form berada di tengah */
+    .form-container {
+      max-width: auto; /* Membatasi lebar form */
+      margin-left: auto; /* Menyejajarkan ke kiri */
+      margin-right: auto; /* Menyejajarkan ke kanan */
+    }
+    h2 {
+  color: black; /* Mengubah warna teks menjadi hitam */
+}
+
+  </style>
+  </head>
+
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+            <ul>
+              <li><a href="index.html" >Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="index.html #contact">Contact</a></li>
+                  
+                  <li><a href="Gallery.html">Gallery</a></li>
+                  <li><a href="team.html">Team</a></li>
+                  <li><a href="Jurusan.html">Jurusan</a></li>
+                  <li><a href="pendaftaran.html"class="active">Pendaftaran</a></li>
+                </ul>
+              </li>
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          </nav>
+    
+      </div>
+    </header>
+    <main class="main">
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero section dark-background">
+    <br>
+      
+<body>
+    <div class="container mt-5">
+        <div class="form-container text-colo"> <!-- Kotak di sekitar form -->
+          <h2 class="mt-4">Form Pendaftaran</h2>
+          <form id="formPendaftaran">
+            <div class="row">
+              <!-- Kolom Kiri -->
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="nisn_nim">NISN (Siswa) / NIM (Mahasiswa Studi Lanjut)</label>
+                  <input type="text" class="form-control" id="nisn_nim" placeholder="Masukkan NISN atau NIM">
+                </div>
+                <div class="form-group">
+                  <label for="nama">Nama Lengkap (tanpa gelar)</label>
+                  <input type="text" class="form-control" id="nama" placeholder="Masukkan Nama Lengkap">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Masukkan Email">
+                </div>
+                <div class="form-group">
+                  <label for="no_ponsel">No Ponsel</label>
+                  <input type="text" class="form-control" id="no_ponsel" placeholder="Masukkan No Ponsel">
+                </div>
+                <div class="form-group">
+                  <label for="tanggal_lahir">Tanggal Lahir</label>
+                  <input type="date" class="form-control" id="tanggal_lahir">
+                </div>
+              </div>
+              
+              <!-- Kolom Kanan -->
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label for="jenis_kelamin">Jenis Kelamin</label>
+                  <select class="form-control" id="jenis_kelamin">
+                    <option value="Jenis-Kelamin">Jenis Kelamin</option>
+                    <option value="Laki-laki">Laki-laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="jenis_sekolah">Jenis Sekolah</label>
+                  <select class="form-control" id="jenis_sekolah">
+                    <option value="Pilih Jenis Sekolah">Pilih Jenis Sekolah</option>
+                    <option value="SMA">SMA</option>
+                    <option value="SMK">SMK</option>
+                    <option value="Paket C">Paket C</option>
+                    <option value="MA">MA</option>
+                    <option value="Universitas">Universitas</option>
+                    <option value="Institut">Institut</option>
+                    <option value="Sekolah Tinggi">Sekolah Tinggi</option>
+                    <option value="Politeknik">Politeknik</option>
+                    <option value="Akademi">Akademi</option>
+                  </select>
+                </div>              
+                <div class="form-group">
+                  <label for="asal_sekolah">Asal Sekolah</label>
+                  <input type="text" class="form-control" id="asal_sekolah" placeholder="Masukkan Asal Sekolah">
+                </div>
+                <div class="form-group">
+                  <label for="jurusan_asal">Jurusan Asal</label>
+                  <input type="text" class="form-control" id="jurusan_asal" placeholder="Masukkan Jurusan Asal">
+                </div>
+                <div class="form-group">
+                  <label for="tahun_lulus">Tahun Lulus</label>
+                  <select class="form-control" id="tahun_lulus">
+                    <option value="" disabled selected>Pilih Tahun Lulus</option>
+                    <script>
+                      const tahunSekarang = new Date().getFullYear();
+                      for (let i = 2010; i <= tahunSekarang + 5; i++) {
+                        document.write('<option value="' + i + '">' + i + '</option>');
+                      }
+                    </script>
+                  </select>
+                </div>
+              </div>
+            </div>
+    
+            <div class="text-center custom-margin mt-5">
+                <button type="button" class="btn btn-primary" onclick="submitForm()">Daftar Sekarang</button>
+              </div>
+          
+    
+            <p style="display: inline-block; white-space: nowrap; color: black;">
+              Ada kendala registrasi? 
+              <a href="https://wa.me/+62895110080600" target="_blank" style="text-decoration: none; font-weight: bold; color: rgb(0, 4, 255);">Hubungi Kami</a>
+            </p>
+          </form>
+        </div> <!-- End of form-container -->
+        <script>
+            function submitForm() {
+              // Ambil data dari form
+              var nisn_nim = document.getElementById("nisn_nim").value;
+              var nama = document.getElementById("nama").value;
+              var email = document.getElementById("email").value;
+              var no_ponsel = document.getElementById("no_ponsel").value;
+              var tanggal_lahir = document.getElementById("tanggal_lahir").value;
+              var jenis_kelamin = document.getElementById("jenis_kelamin").value;
+              var jenis_sekolah = document.getElementById("jenis_sekolah").value;
+              var asal_sekolah = document.getElementById("asal_sekolah").value;
+              var jurusan_asal = document.getElementById("jurusan_asal").value;
+              var tahun_lulus = document.getElementById("tahun_lulus").value;
+          
+              // Bangun pesan WhatsApp
+              var message = "Pendaftaran Baru: \n" +
+                            "NISN/NIM: " + nisn_nim + "\n" +
+                            "Nama: " + nama + "\n" +
+                            "Email: " + email + "\n" +
+                            "No Ponsel: " + no_ponsel + "\n" +
+                            "Tanggal Lahir: " + tanggal_lahir + "\n" +
+                            "Jenis Kelamin: " + jenis_kelamin + "\n" +
+                            "Jenis Sekolah: " + jenis_sekolah + "\n" +
+                            "Asal Sekolah: " + asal_sekolah + "\n" +
+                            "Jurusan Asal: " + jurusan_asal + "\n" +
+                            "Tahun Lulus: " + tahun_lulus;
+          
+              // Encode pesan agar karakter spesial ter-handle
+              var encodedMessage = encodeURIComponent(message);
+          
+              // Redirect ke WhatsApp dengan pesan
+              var whatsappURL = "https://wa.me/+62895110080600?text=" + encodedMessage;
+              window.open(whatsappURL, "_blank");
+                  // Kosongkan form setelah dikirim
+                document.getElementById("formPendaftaran").reset();
+            }
+          </script>
+      </div>
+      
+              <!-- Bootstrap JS (Optional) -->
+              <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+            
+              <footer id="footer" class="footer dark-background">
+                <div class="container">
+                  <h3 class="sitename">UNEJ</h3>
+                  <p>Membangun Generasi Cerdas, Berkualitas, dan Berintegritas</p>
+                  <div class="social-links d-flex justify-content-center">
+                    <a href="https://twitter.com/unej_official"><i class="bi bi-twitter-x"></i></a>
+                    <a href="https://www.facebook.com/UNIVERSITASJEMBER"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/unej_official/"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.youtube.com/user/unejtv"><i class="bi bi-youtube"></i></a>
+                    <a href="https://www.linkedin.com/school/universitasjember"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                  <div class="container">
+                    <div class="copyright"><span>Copyright</span> <strong class="px-1 sitename">unej_official</strong> <span>All Rights Reserved</span></div>
+                    <div class="credits">
+                      <!-- All the links in the footer should remain intact. -->
+                      <!-- You can delete the links only if you've purchased the pro version. -->
+                      <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                      <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                    </div>
+                  </div>
+                </div>
+              </footer>
+          
+              <!-- Scroll Top -->
+              <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+          
+              <!-- Preloader -->
+              <div id="preloader"></div>
+          
+              <!-- Vendor JS Files -->
+              <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+              <script src="assets/vendor/php-email-form/validate.js"></script>
+              <script src="assets/vendor/aos/aos.js"></script>
+              <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+              <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+              <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+              <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+          
+              <!-- Main JS File -->
+              <script src="assets/js/main.js"></script>
+            </body>
+          </html>
+          
